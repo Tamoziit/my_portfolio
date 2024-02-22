@@ -12,35 +12,35 @@ const data = [
     image: IMG1,
     title: "InstaForNoobs",
     github: "https://github.com/Tamoziit/InstaForNoobs",
-    demo: "https://insta-for-noobs.vercel.app/"
+    demo: "https://insta-for-noobs.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
     title: "Netflix Landing Page Clone",
     github: "https://github.com/Tamoziit/Netflix-Clone",
-    demo: "https://flixy-frontend.vercel.app/"
+    demo: "https://flixy-frontend.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Musica - music listening, reviewing & practicing website",
+    title: "Musica - listen review & practice songs",
     github: "https://github.com/Tamoziit/Musica-app",
-    demo: "https://musica-music-app-reviews-practice.netlify.app/"
+    demo: "https://musica-music-app-reviews-practice.netlify.app/",
   },
   {
     id: 4,
     image: IMG4,
     title: "Dragon Emperor - Javascript RPG Game",
     github: "https://github.com/Tamoziit/Dragon-Emperor",
-    demo: "https://dragon-emperor.vercel.app/"
+    demo: "https://dragon-emperor.vercel.app/",
   },
   {
     id: 5,
     image: IMG5,
     title: "Zinger - Recipe App",
     github: "https://github.com/Tamoziit/Recipe-App",
-    demo: "https://zinger-lake.vercel.app/"
+    demo: "https://zinger-lake.vercel.app/",
   },
 ]
 
@@ -52,7 +52,7 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github, demo, details }) => {
             return (
               <article key={id} className='portfolio_item'>
                 <div className="portfolio_item-image">
