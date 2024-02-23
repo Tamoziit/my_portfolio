@@ -22,7 +22,7 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>5+ Years Coding Experience</small>
+              <small>3+ Years Coding Experience</small>
             </article>
 
             <article className='about_card'>
@@ -32,7 +32,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am Tamojit Das, pursuing B.Tech in Computer Science and Engineering in Heritage Institute of Technology, Kolkata. I am an aspiring Full-Stack Developer and ML Engineer. I have keen interest in working and collaborating over innovative and interesting technology, software and projects.
+            I am Tamojit Das, pursuing B.Tech in Computer Science and Engineering at Heritage Institute of Technology, Kolkata. I am an aspiring Full-Stack Developer and ML Engineer. I have keen interest in working and collaborating over innovative and interesting technology, software and projects.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
