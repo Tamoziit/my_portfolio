@@ -17,7 +17,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Netflix Landing Page Clone",
+    title: "Netflix Landing Page UI Clone",
     github: "https://github.com/Tamoziit/Netflix-Clone",
     demo: "https://flixy-frontend.vercel.app/",
   },

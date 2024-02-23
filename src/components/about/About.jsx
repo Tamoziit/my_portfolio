@@ -32,7 +32,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nisi non quam voluptates repellat dolorem ab aut rem? Praesentium iste a voluptates libero saepe asperiores reiciendis quaerat facere ullam sit.
+            I am Tamojit Das, pursuing B.Tech in Computer Science and Engineering in Heritage Institute of Technology, Kolkata. I am an aspiring Full-Stack Developer and ML Engineer. I have keen interest in working and collaborating over innovative and interesting technology, software and projects.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
