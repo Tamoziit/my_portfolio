@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import { SiChakraui, SiPython } from "react-icons/si";
+import { SiChakraui, SiGooglecloud, SiJenkins, SiNginx, SiPython } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
@@ -16,6 +16,9 @@ import { SiAmazonaws } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
 import { FaDocker } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import { SiRedis } from "react-icons/si";
+import { SiKubernetes } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -94,11 +97,25 @@ const Experience = () => {
                 <h4>Typescript</h4>
               </div>
             </article>
+            
+            <article className='experience_details'>
+              <SiExpress className='experience_details-icon' />
+              <div>
+                <h4>Express.js</h4>
+              </div>
+            </article>
 
             <article className='experience_details'>
               <SiMongodb className='experience_details-icon' />
               <div>
                 <h4>MongoDB</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiRedis className='experience_details-icon' />
+              <div>
+                <h4>Redis</h4>
               </div>
             </article>
 
@@ -113,6 +130,53 @@ const Experience = () => {
               <SiSocketdotio className='experience_details-icon' />
               <div>
                 <h4>Socket.io</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="experience_misc">
+          <h3>Dev-Ops</h3>
+          <div className="experience_content">
+            <article className='experience_details'>
+              <FaDocker className='experience_details-icon' />
+              <div>
+                <h4>Docker</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiKubernetes className='experience_details-icon' />
+              <div>
+                <h4>Kubernetes</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiJenkins className='experience_details-icon' />
+              <div>
+                <h4>Jenkins</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiNginx className='experience_details-icon' />
+              <div>
+                <h4>NGINX</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiGooglecloud className='experience_details-icon' />
+              <div>
+                <h4>Google Cloud</h4>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <SiAmazonaws className='experience_details-icon' />
+              <div>
+                <h4>AWS</h4>
               </div>
             </article>
           </div>
@@ -139,20 +203,6 @@ const Experience = () => {
               <SiGithub className='experience_details-icon' />
               <div>
                 <h4>GitHub</h4>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <FaDocker className='experience_details-icon' />
-              <div>
-                <h4>Docker</h4>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <SiAmazonaws className='experience_details-icon' />
-              <div>
-                <h4>AWS</h4>
               </div>
             </article>
 
